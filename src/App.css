@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.app-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.qr-import-generator {
+    position: relative;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-right: 8px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 6px 12px;
+    width: 100%;
+    position: relative;
+}
+
+.input-area {
+    margin-bottom: 16px;
+}
+
+.result {
+    white-space: normal;
+    height: 90px;
+}
+
+.qr-result {
+    width: 256px;
+    display: block;
+    margin: 12px auto;
+}
