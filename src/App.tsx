@@ -37,7 +37,7 @@ function App() {
     setAccountName(e.target.value);
     const value = inputAddress;
     if (value && value !== '') {
-      setImportString(generateImportString(value, accountName))
+      setImportString(generateImportString(value, e.target.value))
     } else {
       setImportString('');
     }
