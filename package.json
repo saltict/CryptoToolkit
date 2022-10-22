@@ -1,6 +1,7 @@
 {
   "name": "crypto-toolkit",
   "version": "0.1.0",
+  "homepage": "https://tools.subwallet.app",
   "private": true,
   "dependencies": {
     "@polkadot/util": "^10.1.11",
